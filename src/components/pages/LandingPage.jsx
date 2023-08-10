@@ -1,7 +1,7 @@
 export default function LandingPage() {
   return (
     <div>
-      <div>Hello World!</div>
+      <h2>Hello World!</h2>
     </div>
   );
 }

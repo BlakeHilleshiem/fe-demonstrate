@@ -1,4 +1,5 @@
 import "../App.css";
+import "../styles/app.scss";
 import DefaultContainer from "./routing/DefaultContainer";
 import { Switch } from "react-router-dom";
 
