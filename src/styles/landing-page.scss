@@ -1,3 +1,21 @@
-h2 {
-  color: red;
+.landing-page-container {
+  background-color: $darkest;
+  height: 100vh;
+
+  .hero-section-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .hero-wrapper {
+      height: 350px;
+      width: 90%;
+      border: 1px solid $code-green;
+      margin-top: 2%;
+
+      h2 {
+        color: $code-green;
+        margin-left: 5%;
+      }
+    }
+  }
 }
